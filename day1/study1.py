@@ -16,6 +16,7 @@ def test_get_user():
 
 def test_create_post():
     url = "https://jsonplaceholder.typicode.com/posts"
+    #提交参数
     data = {
         "title": "test",
         "body": "hello",
