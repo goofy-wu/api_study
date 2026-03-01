@@ -18,7 +18,7 @@ def test_create_post():
     data = {
         "title":"test",
         "body":"hello",
-        "username":1
+        "userId":1
     }
 
     r = requests.post(url,json=data)
